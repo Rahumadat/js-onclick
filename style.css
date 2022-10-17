@@ -28,6 +28,7 @@ body {
 }
 .botonlogin button {
     color: #fff;
+    width: 80px;
     background-color:dodgerblue;
     box-shadow: 5px 4px 3px black;
 }
