@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+* {
+    margin: 0px;
+}
+/* h2, h4, p {
+    margin: 0px;
+} */
+body {
+    width: 80%;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.cabecera {
+    height: 60px;
+    width: 100%;
+    background-color: #999;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.botonlogin button {
+    color: #fff;
+    background-color:dodgerblue;
+    box-shadow: 5px 4px 3px black;
+}
+main {
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.ninjas{
+
+    /* border: 1px black solid; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.ninjatotal{
+    width: 100%;
+    border: 2px #000 solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ninjaizq{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ninjader {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ninjatitulo {
+    padding-top: 10px;
+}
+.ninjaplural {
+    /* border: 1px red solid; */
+    margin-bottom: 20px;
+}
+.ninjabtnlike button {
+    /* border: 1px red solid; */
+    margin-bottom: 20px;
+    height: 30px;
+    width: 80px;
+    font-size:small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkgoldenrod;
+    box-shadow: 5px 4px 3px black;
+}
+.aside {
+    border: 2px #000 solid;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20px;
+}
+.asidetitulo {
+    margin-bottom: 20px;
+}
+.asidebtn button {
+    margin-bottom: 20px;
+    background-color: #28a745;
+    box-shadow: 5px 4px 3px black;
+}
+
